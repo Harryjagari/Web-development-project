@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry e-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <script src="./script.js"></script>
+    <style>
+        /*CSS for #researchinfo*/ 
+        #researchinfo {
+            line-height: 1.7rem;
+            padding: 18px;
+        }
+/*CSS for #top*/ 
+        #top {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+ /*CSS for #top img*/       
+        #top img {
+            height: 100px;
+            width: 130px;
+            border-radius: 50%;
+
+        }
+        /*CSS for #top div*/ 
+        #top div{
+            margin-bottom: 35px;
+        }
+        /*CSS for imagesfornave*/ 
+        .imagesfornave{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*CSS for imagesfornave img*/ 
+        .imagesfornave img{
+            height: 400px;
+            width: 660px;
+            margin: 15px 5px;
+        
+            border: 4px solid black;
+            margin-top:25px ;
+            padding: 12px;
+            
+        }
+        /*CSS for h2,h3*/ 
+        h2,h3{
+            text-align: center;
+        }
+        /*CSS for hr*/ 
+        hr{
+            margin-top: 25px;
+            border: 4px solid;
+            color: blue;
+            box-shadow: 4px 4px 14px;
+        }
+        /*CSS for #activeee*/ 
+        #activeee{
+            background-color: rgb(255, 42, 42);
+            filter: drop-shadow(0 0 11px);
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav id="navigation">
+        <a href="index.html"><img id="mylogo" src="./images/logo.png" alt="my logo"></a>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a id="activeee" href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+            <li><a href="about.html">About US</a></li>
+        </ul>
+        <a href="login.html"><button type="button" class="btn">Login here</button></a>
+    </nav>
+    <!--Section for research info-->
+    <section id="researchinfo">
+        <div id="top">
+            <div>
+                <h2>Researched by Harendra Jagari</h2>
+                <p>
+                    For building this website I have researched from various websites deeply. I have taken the refrence
+                    for the basic html structure, but the css and bit of animation and hover effects are totally
+                    different from them. Mainly I have used the dealaayo wesite for the product page and then apple,
+                    xiaomi, oneplus, samsung,etc. for the photo reference.</p>
+
+            </div>
+        
+        <img src="./images/me.jpg" width="100%" alt="my photo">
+        
+        </div>
+        <div class="navcomparision">
+            <div>
+            </div>
+            <hr>
+            <!--Comparision of Navigation bar-->
+            <h3>1.Navigation bar comparision</h3>
+            <p>
+           
+            I have taken the reference of navigation bar from the vivo's official website here the website has
+            three parts logo on the right and then menu part which is alligned center and the search bar in the
+            left but instead of the searched bar i have used the login button there. The vivo has used the drop
+            down menu in hover effect in the menu buttons, but I have used the normal color changing and drop
+            shadow hover effets. I have also added the redirect link of homepage in the logo.
+            and our navigation bar is sticky in position
+            </p>
+                <div class="imagesfornave">
+                    <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 19-07-38.png" alt="my nav">
+                    <a href="https://www.vivo.com/in" target="_blank"><img width="100%" src="./images/comparision/Screenshot from 2022-05-30 19-20-08.png" alt="my nav"></a>
+
+               
+            </div>
+        <div class="navcomparision">
+            <div>
+            </div>
+            <!--Comparision of Product page-->
+            <hr>
+            <h3>2.Product page comparision</h3>
+            <p>
+           
+            I have taken the product page refrence from the nepali websit dealaayo.com. same as it has used the 4 columns to display the mobile products. I have also used the css grid property to make four columns. The animation while hovering the images is also taken from this site, but some changes are made wisely. I have also used the page next buttons. After that the new feature that i have added on my own is the feedback of the customer which is fascinatig for the new visitors in the website. I have also added a image slider in the top of the product page with the cool photos.
+            </p>
+            
+                <div class="imagesfornave">
+                    <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 19-51-57.png" alt="my nav">
+                   <a href="https://www.dealayo.com/mobile.html?mode=grid&price=480-250000" target="_blank"> <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 19-50-13.png" alt="my nav"></a>
+
+               
+            </div>
+        <div class="navcomparision">
+            <div>
+            </div>
+            <!--Comparision of Image slider-->
+            <hr>
+            <h3>3.Image slider comparision</h3>
+            <p>
+           I have taken the refrence of this image slider from the amazon website's home page.
+           For this I have used the javascript where i used the timeinterval property with the slider function.
+           the image slides in every 4 second in my case. And the bonus logic I have used here is the background slider class sets its own size itself respect to the image's size.
+            
+            </p>
+            
+                <div class="imagesfornave">
+                    
+                    <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 20-09-29.png" alt="my nav">
+                    <a href="https://www.amazon.com/"><img width="100%" src="./images/comparision/Screenshot from 2022-05-30 20-07-46.png" alt="my nav"></a>
+
+               
+            </div>
+        <div class="navcomparision">
+            <div>
+            </div>
+            <!--Comparision of Login page-->
+            <hr>
+            <h3>4.Login page comparision</h3>
+            <p>
+          I have taken the reference from the netflix login page. I have just taken the outer structure of the form. Additionally, I have added the hover or animation effect in the form. The form gets flipped while changing from login to sign up or sign up to login.
+            
+            </p>
+            
+                <div class="imagesfornave">
+                    <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 21-19-43.png" alt="my nav">
+                    <a target="_blank" href="https://www.netflix.com/np/login"><img width="100%" src="./images/comparision/Screenshot from 2022-05-30 21-19-20.png" alt="my nav"></a>
+
+               
+            </div>
+        <div class="navcomparision">
+            <div>
+            </div>
+            <!--Comparision of Contact Form -->
+            <hr>
+            <h3>5.Contact Form page comparision</h3>
+            <p>
+          I have taken the refrence of this contact form page from the website called moz. only, the difference here is i have used this form in the left side, whereas the moz website has alligned it vertically center. I have also used the form validation.
+            
+            </p>
+            
+                <div class="imagesfornave">
+                    <img width="100%" src="./images/comparision/Screenshot from 2022-05-30 21-26-05.png" alt="my nav">
+                    <a target="_blank" href="https://moz.com/help/contact?fbclid=IwAR01g95wKmTvxS6OrkFbPLUwP20XO9Kwa01LmBY1lgwKlNjmixnwWo642Eo"><img width="100%" src="./images/comparision/Screenshot from 2022-05-30 21-28-27.png" alt="my nav"></a>
+
+               
+            </div>
+            <hr>
+
+
+    </section>
+
+    </div>
+    <hr class="indicat1">
+<!--Section for website services-->
+    <section id="services">
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (8).png"
+                        alt="">
+                </div>
+                <h3>100% ORIGINAL PRODUCTS </h3>
+                <p>
+                    Shop with peace of mind , harry's mobile.com sell only genuine products. 100% original products are
+                    acquired from manufacturers through proper channels and proper quality checks.
+                </p>
+
+
+                <div class="servicelearnmore">
+                    <a href="original.html"><button  type="button">
+                            Learn more
+                        </button></a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (10).png"
+                        alt="">
+                </div>
+                <h3>TIMELY & FREE* DELIVERY</h3>
+
+                <p>
+                    Timely delivery has always been a priority at harry's mobile. Order today by 9am and it is delivered
+                    the same evening in Kathmandu. Also get free delivery for order above Rs.500 in Kathmandu
+                </p>
+
+                <div class="servicelearnmore">
+                    <a href="timeanddelivery.html"><button type="button">
+                            Learn more
+                        </button></a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (11).png"
+                        alt="">
+                </div>
+                <h3>FREE $ EASY RETURNS </h3>
+                <p>
+                    Easy returns for items shopped online on harry's mobile.com. Most items can be returned for a refund
+                    or replacement within a 7-day return window. Please check our return policies.
+                </p>
+
+
+                <div class="servicelearnmore">
+                    <a href="freereturn.html"><button type="button">
+                            Learn more
+                        </button></a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (12).png"
+                        alt="">
+                </div>
+                <h3>PRICE MATCH GUARANTEE </h3>
+                <p>
+                    Get the best deal with Price Match and Price Guarantee. Shop with confidence, shopping online on
+                    harry's mobile.com guarantees that you get any product at best price offered in Nepal
+                </p>
+
+
+                <div class="servicelearnmore">
+                    <a href="priceguarentee.html"><button type="button">
+                            Learn more
+                        </button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!--Section for sponsers logo-->   
+    <section id="sponsorship">
+        <h2>Our SponsorS</h2>
+        <div id="sponsorlogo"><img src="./images/sponsor1.png" alt="my sponsors" /><img src="./images/sponsor2.png"
+                alt="my sponsors" /><img src="./images/sponsor4.png" alt="my sponsors" />
+            <img src="./images/sponsor3.png" alt="my sponsors" />
+            <img src="./images/sponsor5.png" alt="my sponsors" />
+            <img src="./images/sponsor6.png" alt="my sponsors" />
+        </div>
+    </section>
+
+
+<!--Section for footer-->
+    <footer id="footer">
+        <div id="waves">
+            <div class="wave" id="wave1"> </div>
+            <div class="wave" id="wave2"> </div>
+            <div class="wave" id="wave3"> </div>
+            <div class="wave" id="wave4"> </div>
+        </div>
+        <ul id="social_icons">
+            <li><a href="https://www.facebook.com/harendra.jagari" target="_blank">
+                    <img src="./images/sponsor1.png" alt="my detail">
+                </a></li>
+            <li><a href="https://www.instagram.com/harendrajagari/" target="_blank">
+                    <img src="./images/sponsor4.png" alt="my detail">
+                </a></li>
+        </ul>
+        <ul id="menu">
+            <li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
+            <li><a href="https://www.samsung.com/in/" target="_blank">Samsung</a></li>
+            <li><a href="https://www.mi.com/global/" target="_blank">Redmi</a></li>
+            <li><a href="https://www.oneplus.com/np" target="_blank">One Plus</a></li>
+        </ul>
+        <p id="copyright">&copy;2022 Harendra Jagari | All rights reversed </p>
+    </footer>
+
+    </div>
+</body>
+
+</html>

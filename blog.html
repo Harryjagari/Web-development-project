@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href=".//style.css">
+    <script src="./script.js"></script>
+    <style>
+        /*CSS for id blog*/
+        #blog {
+
+            height: 1000px;
+            width: 100%;
+            background: radial-gradient(rgb(255, 255, 255), rgb(243 223 234 / 85%));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+/*CSS for video*/
+        .video video {
+
+            border: 5px solid red;
+        }
+/*CSS for adv class*/
+        .adv {
+            height: 1500px;
+            background: radial-gradient(rgb(255, 255, 255), rgb(243 223 234 / 85%));
+        }
+/*CSS for heading of description class*/
+        .description h1 {
+            background-color: red;
+            color: rgb(255, 254, 251);
+            box-shadow: -3px 13px 10px rgb(135 2 2);
+            width: 50%;
+            margin: auto;
+            border-radius: 22px;
+        }
+/*CSS for description class*/
+        .description {
+            margin: 12px;
+            padding: 14px;
+
+        }
+
+        .para {
+            text-align: center;
+            margin: 5px 57px;
+        }
+
+        .para h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin: 5px;
+            padding: 10px;
+            text-shadow: 0 0 14px;
+
+        }
+
+        .para p {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 5px;
+            padding: 10px;
+            line-height: 2rem;
+
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 550px 1fr;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px;
+
+        }
+
+        .row2 {
+            display: grid;
+            grid-template-columns: 1fr 550px;
+            justify-content: space-around;
+            align-items: center;
+            margin: 85px 14px;
+            padding: 15px;
+
+        }
+/*CSS for blog image*/
+        .blogimage img {
+            width: 500px;
+            margin-left: 40px;
+        }
+
+        .blogimage2 {
+            margin-right: 40px;
+        }
+
+        .blogimage2 img {
+            width: 500px;
+
+        }
+/*CSS for heading of conclusion*/
+        .conclusion h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            text-shadow: 0 0 14px;
+        }
+/*CSS for para of conclusion*/
+        .conclusion p {
+            text-align: center;
+            font-size: 1.5rem;
+            width: 80%;
+            margin: 14px auto;
+
+        }
+        .adv a{
+            display: block;
+            
+            width: 171px;
+            margin: 45px auto;
+        }
+/*CSS for Home button*/
+        #btnhome {
+            padding: 15px;
+            margin: 5px;
+            font-size: 1.2rem;
+           cursor: pointer;
+           border-radius: 5px;
+           border: none;
+           
+            box-shadow: -3px 13px 10px rgb(135 2 2);
+            font-weight: bold;
+        }
+
+        
+        #btnhome:hover {
+            background-color: #870303;
+            color: white;
+        }
+        #activeee{
+            background-color: rgb(255, 42, 42);
+            filter: drop-shadow(0 0 11px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <!--Navigation bar-->
+        <nav id="navigation">
+            <a href="index.html"><img id="mylogo" src="./images/logo.png" alt="my logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a id="activeee" href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+                <li><a href="about.html">About US</a></li>
+            </ul>
+            <a href="login.html"><button type="button" class="btn">Login here</button></a>
+
+        </nav>
+
+<!--Section for blog-->
+        <section id="blog">
+            <div class="description">
+                <h1>
+                    <--Internet--->
+                </h1>
+                <p>Internet, a system architecture that has revolutionized communications and methods of
+                    commerce by allowing various computer networks around the world to interconnect.
+                    Sometimes referred to as a “network of networks,” the Internet emerged in the United
+                    States in the 1970s but did not become visible to the general public until the early 1990s.
+                    By 2020, approximately 4.5 billion people, or more than half of the world's population,
+                    were estimated to have access to the Internet</p>
+            </div>
+<!--Div for video-->
+            <div class="video">
+                <video width="1000px" poster="" controls muted>
+                    <source src="./images/blog.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </section>
+<!--Section for advantages-->
+        <section class="adv">
+            <div class="row">
+                <div class="blogimage">
+                    <img src="./images/adv1.png " alt="advantageous">
+                </div>
+                <div class="para">
+                    <h2>
+                        Advantages of Internet
+                    </h2>
+                    <p>
+                        As the Internet is very powerful creation. It has various advantages. It helps us in
+                        connecting, communicating and sharing information with one another with the help of it.
+                        Students and learners can gather various information and learn various through internet.
+                        With the help of internet now we are able to find various locations, contacts and address
+                        we need in very certain time period. We can sell various products online through various
+                        E-commerce websites and earn money. We are able to pay bills, do banking and
+                        shopping by sitting inside the home without going to particular offices or market.
+                    </p>
+                </div>
+            </div>
+<!--Section for disadvantages-->
+            <div class="row2">
+
+                <div class="para">
+                    <h2>
+                        Disadvantages of Internet
+                    </h2>
+                    <p>
+                        Everything in the world have two aspects like that internet has also both advantages and
+                        disadvantages. As we have already discussed about advantages now it is a turn of
+                        disadvantages. Internet has various disadvantages too. If we spend too much time on
+                        internet, we might get addicted. We waste our time in accessing internet for unnecessary
+                        things. Internet can lead to people to do various crimes, bullying others etc. Internet
+                        makes people addicted to various bad contents like pornography and violent videos.
+                    </p>
+                </div>
+                <div class="blogimage2">
+                    <img src="./images/adv2.jpg " alt="advantageous">
+                </div>
+            </div>
+<!--Div for conclusion-->
+            <div class="conclusion">
+                <h1>
+                    conclusion
+                </h1>
+                <p>As internet is not bad by itself. It has various advantages which makes our life easier. It
+                    has minimized the time occupancy of various works. But over and improper use of
+                    anything can harm the human life as like internet does.</p>
+            </div>
+
+            <a href="./index.html"> <button id="btnhome" type="button"> Go to home--></button></a>
+
+
+        </section>
+<!--Section for footer-->        
+        <footer id="footer">
+            <div id="waves">
+                <div class="wave" id="wave1"> </div>
+                <div class="wave" id="wave2"> </div>
+                <div class="wave" id="wave3"> </div>
+                <div class="wave" id="wave4"> </div>
+            </div>
+            <ul id="social_icons">
+                <li><a href="https://www.facebook.com/harendra.jagari" target="_blank">
+                        <img src="./images/sponsor1.png" alt="my detail">
+                    </a></li>
+                <li><a href="https://www.instagram.com/harendrajagari/" target="_blank">
+                        <img src="./images/sponsor4.png" alt="my detail">
+                    </a></li>
+            </ul>
+            <ul id="menu">
+                <li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
+                <li><a href="https://www.samsung.com/in/" target="_blank">Samsung</a></li>
+                <li><a href="https://www.mi.com/global/" target="_blank">Redmi</a></li>
+                <li><a href="https://www.oneplus.com/np" target="_blank">One Plus</a></li>
+            </ul>
+            <p id="copyright">&copy;2022 Harendra Jagari | All rights reversed </p>
+        </footer>
+
+        <script>
+
+        </script>
+    </body>
+
+</html>

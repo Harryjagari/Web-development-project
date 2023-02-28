@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="product.css">
+
+</head>
+
+<body>
+
+    <body>
+        <!--Navigation bar-->
+        <nav id="navigation">
+            <a href="index.html"><img id="mylogo" src="./images/logo.png" alt="my logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activep" href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+                <li><a href="about.html">About US</a></li>
+            </ul>
+            <a href="login.html"><button type="button" class="btn">Login here</button></a>
+
+        </nav>
+    <!--Section for image slider-->
+        <section class="banner" >
+            <div class="parent" onload="slider()" >
+                <div class="iamhero">
+                    <img src="./images/screenshot/img1.png" width="100%" alt="my photo" id="slideimg">
+                </div>
+            </div>
+        </section>
+        <div class="gobelow">
+            <h1>YOu can explore and add the various product$ to your cart below </h1>
+                <a href="#gobelow"><button>Go below--></button></a>
+
+        </div>
+<!--Section for producttable-->
+        <section id="ourproductTable">
+            <div class="flexer1">
+                <div class="items">
+                    <!-- Hardcoding the element or mobile object here -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/1-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <!--Div for image and price of mobile-->
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 128GB Blue </span>
+                                <span class="price">Price:Rs.20,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/24-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A72 8GB RAM, 256GB Violet</span>
+                                <span class="price">Price:Rs.50,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+<!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/3-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 6GB RAM, 128GB Green
+                                </span>
+                                <span class="price">Price:Rs.39,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/4-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 6GB RAM, 128GB Black </span>
+                                <span class="price">Price:Rs.Rs.39,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/5-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 6GB RAM, 128GB Blue </span>
+                                <span class="price">Price:Rs.Rs.39,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item" id="gobelow">
+                        <div class="image">
+                            <img src="./images/Mobile photo/6-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 8GB RAM, 128GB Black </span>
+                                <span class="price">Price:Rs.Rs.42,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/7-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 8GB RAM, 128GB Green </span>
+                                <span class="price">Price:Rs.Rs.42,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/8-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy M62 8GB RAM, 128GB Blue </span>
+                                <span class="price">Price:Rs.Rs.42,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/9-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span>Samsung Galaxy A52 8GB 128GB White</span>
+                                <span class="price">Price:Rs.Rs.41,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/10-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A32 8 GB RAM, 128GB Blue </span>
+                                <span class="price">Price:Rs.Rs.34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/11-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A32 8 GB RAM, 128GB Violet</span>
+                                <span class="price">Price:Rs.Rs.34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/12-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 128GB Green</span>
+                                <span class="price">Price:Rs.Rs.20,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/13-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM,128 GB Black </span>
+                                <span class="price">Price:Rs.Rs.20,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/14-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 128 GB Red </span>
+                                <span class="price">Price:Rs.20,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/15-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 64GB Green
+                                </span>
+                                <span class="price">Price:Rs.18,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/16-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 64GB Blue</span>
+                                <span class="price">Price:Rs.18,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/17-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span>Xiaomi Redmi 9 T Mobile Phone 4GB RAM, 64GB Red </span>
+                                <span class="price">Price:Rs.18,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/18-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> XRedmi Note 10 Mobile Phone 4GB RAM, 64GB White </span>
+                                <span class="price">Price:Rs.Rs.21,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/19-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Redmi Note 10 Mobile Phone 4GB RAM, 64GB Black </span>
+                                <span class="price">Price:Rs.Rs.21,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/20-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Redmi Note 10 Mobile Phone 8GB RAM, 128GB Black
+                                </span>
+                                <span class="price">Price:Rs.Rs.41,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/21-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A52 8GB RAM, 128GB Black</span>
+                                <span class="price">Price:Rs.Rs.41,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/22-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A12 4GB, 64GB Black varient</span>
+                                <span class="price">Price:Rs.Rs.18,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+<!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/23-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A72 8GB RAM, 256GB Violet </span>
+                                <span class="price">Price:Rs.Rs.56,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/2-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Samsung Galaxy A32 8 GB RAM, 128GB Black </span>
+                                <span class="price">Price:Rs.34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/iphone1-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> I- phone 11 pro max black grey varient</span>
+                                <span class="price">Price:Rs.1,34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/iphone2-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> I- phone 13 pro max black white varient  </span>
+                                <span class="price">Price:Rs.2,34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/iphone3-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> I- phone 10 pro max black grey varient  </span>
+                                <span class="price">Price:Rs.1,34,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/oneplus-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> One plus 9 black grey varient  </span>
+                                <span class="price">Price:Rs.1,14,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/oneplus2-removebg-preview.png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> One plus 9 8gb ram 256gb romblack grey varient  </span>
+                                <span class="price">Price:Rs.1,54,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/image-removebg-preview (6).png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> vivo v 9 4b ram 64gb romblack grey varient  </span>
+                                <span class="price">Price:Rs.24,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/image-removebg-preview (7).png" alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> vivo v12 9 8gb ram 128gb romblack grey varient  </span>
+                                <span class="price">Price:Rs.1,04,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Div for image and price of mobile-->
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/Mobile photo/image-removebg-preview (5).png " alt="Our model image">
+                        </div>
+                        <div class="details">
+                            <div class="detail">
+                                <span> Vivo v13 9 8gb ram 256gb romblack grey varient  </span>
+                                <span class="price">Price:Rs.1,54,999</span>
+                                <div class="detailtransformer">
+                                    <span class="addtothecart"> <button type="button">Add to the cart</button> </span>
+                                    <span class="nofitem">Number Of Items:&#160;&#160;&#160;<input type="number"></span>
+                                    <span class="learnmore"><a href="#">Learn more</a></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <hr class="indicat">
+        </section>
+        <!--Section for pagenexter-->
+        <section class="footernavmain">
+        <div class ="footernav">
+            <div id="itemtext">
+                <p>Pages: Items 1 to 25 of total</p>
+            </div>
+            <div>
+                <div class="pagenexter">
+                    <img src="./images/leftarrow.png" alt="">
+                    <span class="footactive">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <img src="./images/rightarrow.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section for response-->
+    <section id="response">
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img width="100%" src="./images/PngItem_770341.png" alt="">
+                </div>
+                <p>
+                    This is the best shoping website for the lazy users who don't wanna explore the city market. This site provides much more warranty than others.
+                </p>
+                <h3>Mahegya malla </h3>
+
+                <div class="testiimage">
+                    <img src="./images/user-3.png" alt="">
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img  width="100%" src="./images/PngItem_770341.png" alt="">
+                </div>
+                <p>
+                    This is the best shoping website for the lazy users who don't wanna explore the city market. This site provides much more warranty than others.
+                </p>
+                <h3>Parash Bam </h3>
+
+                <div class="testiimage">
+                    <img src="./images/user-2.png" alt="">
+                </div>
+                </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img width="100%" src="./images/PngItem_770341.png" alt="">
+                </div>
+                <p>
+                    This is the best shoping website for the lazy users who don't wanna explore the city market. This site provides much more warranty than others.
+                </p>
+                <h3>Rohan Karki </h3>
+
+                <div class="testiimage">
+                    <img src="./images/user-1.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+       
+       
+    </section>
+    <hr class="indicat1">
+<!--Section for website services-->
+    <section id="services">
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (8).png" alt="">
+                </div>
+                <h3>100% ORIGINAL PRODUCTS </h3>
+                <p>
+                    Shop with peace of mind , harry's mobile.com sell only genuine products. 100% original products are acquired from manufacturers through proper channels and proper quality checks.
+                </p>
+                
+
+                <div class="servicelearnmore">
+                    <a href="original.html"><button type="button">
+                        Learn more
+                    </button></a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (10).png" alt="">
+                </div>
+                <h3>TIMELY & FREE* DELIVERY</h3>
+
+                <p>
+                    Timely delivery has always been a priority at harry's mobile. Order today by 9am and it is delivered the same evening in Kathmandu. Also get free delivery for order above Rs.500 in Kathmandu
+                </p>
+                
+                <div class="servicelearnmore">
+                    <a href="timeanddelivery.html"><button type="button">
+                        Learn more
+                    </button></a>
+                </div>
+                </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (11).png" alt="">
+                </div>
+                <h3>FREE $ EASY RETURNS </h3>
+                <p>
+                    Easy returns for items shopped online on harry's mobile.com. Most items can be returned for a refund or replacement within a 7-day return window. Please check our return policies.
+                </p>
+               
+
+                <div class="servicelearnmore">
+                    <a href="freereturn.html"><button type="button">
+                        Learn more
+                    </button></a>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="cmtimage">
+                    <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (12).png" alt="">
+                </div>
+                <h3>PRICE MATCH GUARANTEE </h3>
+                <p>
+                    Get the best deal with Price Match and Price Guarantee. Shop with confidence, shopping online on harry's mobile.com guarantees that you get any product at best price offered in Nepal
+                </p>
+                
+
+                <div class="servicelearnmore">
+                    <a href="priceguarentee.html"><button type="button">
+                        Learn more
+                    </button></a>
+                </div>
+            </div>
+            
+        </div> 
+
+    </section>
+    <hr class="indicat3">
+<!--Section for footer-->
+        <footer id="footer">
+            <div id="waves">
+                <div class="wave" id="wave1"> </div>
+                <div class="wave" id="wave2"> </div>
+                <div class="wave" id="wave3"> </div>
+                <div class="wave" id="wave4"> </div>
+            </div>
+            <ul id="social_icons">
+                <li><a href="https://www.facebook.com/harendra.jagari" target="_blank">
+                        <img src="./images/sponsor1.png" alt="my detail">
+                    </a></li>
+                <li><a href="https://www.instagram.com/harendrajagari/" target="_blank">
+                        <img src="./images/sponsor4.png" alt="my detail">
+                    </a></li>
+            </ul>
+            <ul id="menu">
+                <li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
+                <li><a href="https://www.samsung.com/in/" target="_blank">Samsung</a></li>
+                <li><a href="https://www.mi.com/global/" target="_blank">Redmi</a></li>
+                <li><a href="https://www.oneplus.com/np" target="_blank">One Plus</a></li>
+            </ul>
+            <p id="copyright">&copy;2022 Harendra Jagari | All rights reversed </p>
+        </footer>
+
+        <script>
+            //js for image slider
+            var image = document.getElementById('slideimg')
+           
+           
+            var images = new Array(
+                "./images/screenshot/img1.png",
+                "./images/screenshot/img2.png",
+                "./images/screenshot/img3.png",
+                "./images/screenshot/img4.png",
+                "./images/screenshot/img5.png",
+                "./images/screenshot/img6.png",
+                "./images/screenshot/img7.jpg",
+                "./images/screenshot/img9.jpg",
+                "./images/screenshot/img8.jpg"
+                
+            )
+           
+            var len = images.length;
+            var i = 0;
+           
+            function iamhero() {
+               
+                if (i > len - 1) {
+                    i = 0;
+                }
+                else{
+                image.src = images[i];
+                i++;}
+           
+            }
+            setInterval('iamhero()', 4000);
+
+        </script>
+
+    </body>
+
+</html>

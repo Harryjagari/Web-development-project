@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign up  Page</title>
+    <link rel="stylesheet" href=".//style.css">
+    <link rel="stylesheet" href="product.css">
+    <style>
+        /*Css for background*/
+        body{
+            background:radial-gradient(rgb(255, 255, 255), rgb(237 205 223));
+            
+        }
+        /*Css for mainbody*/
+        #mainbody{
+            height: 700px;
+            
+        }
+        /*Css for flexer*/
+        #flexer{
+            padding: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        /*Css for flexer #img img*/
+        #flexer #img img{
+            height: 500px;
+        }
+        /*Css for form-container*/
+        .form-container{
+            padding: 46px;
+            height: 550px;
+            width: 400px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+            overflow: hidden;
+            position: relative;
+            border-radius: 12px;
+            
+        }
+        /*Css for form-btn*/
+        .form-btn{
+            text-align: center;
+          
+        }
+        /*Css for form-btn span*/
+        .form-btn span{
+                font-weight: bold;
+                padding: 5px 26px;
+                color: #555;
+                width: 100px;
+                cursor: pointer;
+                font-size: 1.3rem;
+                
+        }
+        /*Css for form-container form*/
+
+        .form-container form{
+            position: absolute;
+            top: 200px;
+            max-width: 100%;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: all 0.9s;
+            
+            
+        }
+        /*Css for form input*/
+        form input{
+            padding: 7px 16px;
+            margin: 8px 18px;
+            text-align: center;
+            width: 100%;
+            font-size: 1rem;
+        }
+        /*Css for btn1*/
+        .btn1{
+            width: 100%;
+            margin: 15px 6px;
+            font-size: 1rem;
+            padding: 12px;
+            border-radius: 15px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(236, 25, 25);
+            color: white;
+
+        }
+        /*Css for form a*/
+        form a{
+            /* text-decoration: none; */
+            color: black;
+            padding: 4px;
+            margin: 3px;
+        }
+        /*Css for indicator*/
+        #indicator{
+            width:100px;
+            border: 2px solid #ff523b;
+            transform: translateX(42px);
+            transition: all 0.8s;
+
+
+
+        }
+        /*Css for reg-form*/
+
+        #reg-form{
+            left: 400px;
+        }
+        /*Css for log-form*/
+        #log-form{
+            left:40px;
+        }
+        /*Css for loginbtn */
+        #loginbtn{
+            background-color: blue;
+            transform: scale(1.2);
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav id="navigation">
+        <a href="index.html"><img id="mylogo" src="./images/logo.png" alt="my logo"></a>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="product.html">Product</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="research.html">Research</a></li>
+             <li><a href="contact.html">Contact US</a></li>
+             <li><a href="about.html">About US</a></li>
+         </ul>
+         <a  href="login.html"><button id="loginbtn" type="button" class="btn">Login here</button></a>
+         
+     </nav>
+     <!--Section for login form-->
+     <section id="mainbody">
+         <div id="flexer">
+             <div id="img">
+                 <img src=".//images/login1.png" width="100%" alt="my photo">
+             </div>
+             <div id="forms">
+                 <div class="form-container">
+                     <div class="form-btn">
+                         <span onclick="login()">Login</span>
+                         <span onclick="register()">Register</span>
+                         <hr id="indicator">
+                     </div>
+                 
+                 <form action="#" id="log-form">
+                     <input type="text" placeholder="Username">
+                     <input type="password" placeholder="password">
+                     <button type="submit" class="btn1">Login</button>
+                     <a href="#">Forgot password</a>
+
+                 </form>
+                 <form action="#" id="reg-form">
+                     <input type="text" placeholder="Username">
+                     <input type="email" placeholder="Email">
+                     <input type="password" placeholder="password">
+                     <input type="password" placeholder="Confirm password">
+                     <button type="submit" class="btn1">Register</button>
+                     
+
+                 </form>
+                </div>
+             </div>
+         </div>
+     </section>
+     <hr class="indicat1">
+<!--Section for website services-->
+     <section id="services">
+         <div class="testimonials">
+             <div class="testimonial">
+                 <div class="cmtimage">
+                     <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (8).png"
+                         alt="">
+                 </div>
+                 <h3>100% ORIGINAL PRODUCTS </h3>
+                 <p>
+                     Shop with peace of mind , harry's mobile.com sell only genuine products. 100% original products are
+                     acquired from manufacturers through proper channels and proper quality checks.
+                 </p>
+ 
+ 
+                 <div class="servicelearnmore">
+                     <a href="original.html"><button type="button">
+                             Learn more
+                         </button></a>
+                 </div>
+             </div>
+             <div class="testimonial">
+                 <div class="cmtimage">
+                     <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (10).png"
+                         alt="">
+                 </div>
+                 <h3>TIMELY & FREE* DELIVERY</h3>
+ 
+                 <p>
+                     Timely delivery has always been a priority at harry's mobile. Order today by 9am and it is delivered
+                     the same evening in Kathmandu. Also get free delivery for order above Rs.500 in Kathmandu
+                 </p>
+ 
+                 <div class="servicelearnmore">
+                     <a href="timeanddelivery.html"> <button  type="button">
+                             Learn more
+                         </button></a>
+                 </div>
+             </div>
+             <div class="testimonial">
+                 <div class="cmtimage">
+                     <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (11).png"
+                         alt="">
+                 </div>
+                 <h3>FREE $ EASY RETURNS </h3>
+                 <p>
+                     Easy returns for items shopped online on harry's mobile.com. Most items can be returned for a refund
+                     or replacement within a 7-day return window. Please check our return policies.
+                 </p>
+ 
+ 
+                 <div class="servicelearnmore">
+                     <a href="freereturn.html"><button type="button">
+                             Learn more
+                         </button></a>
+                 </div>
+             </div>
+             <div class="testimonial">
+                 <div class="cmtimage">
+                     <img id="serviceimg" width="100%" src="./images/attachments (3)/image-removebg-preview (12).png"
+                         alt="">
+                 </div>
+                 <h3>PRICE MATCH GUARANTEE </h3>
+                 <p>
+                     Get the best deal with Price Match and Price Guarantee. Shop with confidence, shopping online on
+                     harry's mobile.com guarantees that you get any product at best price offered in Nepal
+                 </p>
+ 
+ 
+                 <div class="servicelearnmore">
+                     <a href="priceguarentee.html"><button type="button">
+                             Learn more
+                         </button></a>
+                 </div>
+             </div>
+ 
+         </div>
+ 
+     </section>
+     <hr class="indicat3">
+<!--Section for footer-->     
+     <footer id="footer">
+        <div id="waves">
+            <div class="wave" id="wave1"> </div>
+            <div class="wave" id="wave2"> </div>
+            <div class="wave" id="wave3"> </div>
+            <div class="wave" id="wave4"> </div>
+        </div>
+        <ul id="social_icons">
+            <li><a href="https://www.facebook.com/harendra.jagari" target="_blank">
+                    <img src="./images/sponsor1.png" alt="my detail">
+                </a></li>
+            <li><a href="https://www.instagram.com/harendrajagari/" target="_blank">
+                <img src="./images/sponsor4.png" alt="my detail">
+                </a></li>
+        </ul>
+        <ul id="menu">
+            <li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
+            <li><a href="https://www.samsung.com/in/" target="_blank">Samsung</a></li>
+            <li><a href="https://www.mi.com/global/" target="_blank">Redmi</a></li>
+            <li><a href="https://www.oneplus.com/np" target="_blank">One Plus</a></li>
+        </ul>
+        <p id="copyright">&copy;2022 Harendra Jagari | All rights reversed </p>
+    </footer>
+    
+    <script>
+        // Js   for   toogle    form
+        const LoginForm= document.getElementById('log-form')
+        const RegisterForm= document.getElementById('reg-form')
+        const Indicator=document.getElementById('indicator')
+        function login(){
+            RegisterForm.style.left='400px';
+            LoginForm.style.left='40px';
+            Indicator.style.transform= "translateX(40px)"
+        }
+        function register(){
+            // RegisterForm.style.display='block'
+
+            RegisterForm.style.left='40px';
+            LoginForm.style.left='400px';
+            Indicator.style.transform= "translateX(160px)"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+}
+#navigation ul li a.activep {
+    background-color: rgb(255, 42, 42);
+    filter: drop-shadow(0 0 11px);}
+
+#ourproductTable {
+    height: fit-content;
+    background:radial-gradient(#fff, #fdb7f1);    
+    
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap : 2.2rem;
+    margin: 13px 25px;
+}
+
+
+.image img {
+    height: 250px;
+    margin: 30px 20px;
+    transition: transform 2s;
+    
+    
+}
+.image img:hover {
+    
+    
+
+}
+
+
+.details {
+
+    font-weight: bolder;
+}
+
+.detail {
+  
+    position: relative;
+}
+
+.details span {
+    display: block;
+    text-align: center;
+    background-color: rgb(240, 109, 33);
+    color: rgb(17, 21, 39);
+    border-radius: 12px;
+    margin: 8px;
+    padding: 9px;
+    
+
+}
+
+span.price {
+    color: rgb(253, 253, 253);
+    background-color: black;
+}
+
+
+
+.detailtransformer {
+    position: absolute;
+    width: 100%;
+    top: -36px;
+    background-color: rgb(205 205 205);
+    border-radius: 20px;
+    box-shadow: -12px 16px 14px #b31d1d;
+    transition: transform 0.4s ease-in ;
+    visibility: hidden;
+}
+
+.item:hover .detailtransformer {
+    visibility: visible;
+    transform: scale(1.05);
+}
+.item:hover .detail {
+    visibility: hidden;
+    
+}
+
+.detailtransformer span {
+    display: block;
+    text-align: center;
+}
+
+.detailtransformer span button {
+    border: none;
+    background: transparent;
+    
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+
+
+}
+span.learnmore{
+    background-color: rgb(31, 209, 209);}
+    
+
+
+span.learnmore a{
+    color:black;
+    font-weight: bold;
+}
+span.learnmore a:hover{
+    color:rgb(245, 245, 245);
+  
+  
+}
+
+span.addtothecart {
+    
+    cursor: pointer;
+   
+}
+
+span.addtothecart:hover{
+  background-color: blue;
+
+    text-shadow: 0 0 14px rgb(238, 234, 234);
+  
+    
+
+}
+
+.detailtransformer input {
+    height: 23px;
+    width: 39px;
+    border: none;
+    border: 2px solid rgb(228, 224, 224);
+    border-radius: 7px;
+}
+span.nofitem{
+    background-color: rgb(245, 77, 35);
+    color: white;
+}
+
+
+
+
+
+/* Css for slider image */
+.parent{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 3s;
+}
+.slider{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+}
+#slideimg{
+    animation: zoom 3s linear infinite;
+
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+
+    }
+    15%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+.gobelow{
+    background: transparent;
+    
+}
+.gobelow h1{
+    margin: 23px;
+    text-align: center;
+    text-shadow: 0 0 14px;
+
+}
+.gobelow a {
+    display: block;
+    width: 171px;
+    margin: 25px auto;
+    margin-bottom: 65px;
+}
+.gobelow button{
+   
+        padding: 15px;
+        margin: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        box-shadow: -3px 13px 10px rgb(135 2 2);
+        font-weight: bold;
+    
+}
+.gobelow button:hover {
+    background-color: #870303;
+    color: white;
+}
+.indicat{
+    margin-top: 75px;
+    border: none;
+}
+
+
+
+
+
+/* Styling the product page footer */
+.footernavmain{
+    height: 88px;
+    /* background:radial-gradient(#fff, #f1f1f1); */
+    padding:  20px 1px;  
+
+}
+.footernav{
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: #cbc5c5;
+    padding: 6px;
+    
+    
+}
+#itemtext{
+    display: flex;
+    align-items: center;
+}
+#itemtext p{
+    font-size: 1.3rem;
+    word-spacing: 12px;
+    background-color: #ebe6ea;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pagenexter
+{
+display: flex;
+align-items: center;
+}
+
+.pagenexter img{
+   
+    width: 29px;
+    margin: auto 19px;
+
+    padding: 1px;
+    cursor: pointer;
+}
+.pagenexter img:hover{
+    background-color: #e14fb4;
+    border-radius: 5px;
+    filter: invert(1);
+}
+
+
+.pagenexter span{
+    margin: auto 18px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 50%;
+  
+}
+.pagenexter span:hover{
+    background-color: #e71f1f;
+    color: white;
+ 
+}
+.pagenexter .footactive{
+    background-color: #e71f1f;
+    color: white;
+
+}
+
+
+
+
+/* Styling the response section */
+#response{
+    height: 385px;
+   
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    padding-top: 40px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.testimonial  p{
+    text-align: center;
+    padding: 17px;
+}
+.testiimage img{
+    border-radius: 50%;
+    height: 100px;
+    
+}
+.cmtimage img{
+    height: 75px;
+}
+
+
+
+
+/* Styling the services section */
+#services{
+    background: radial-gradient(#fff, #efff6f);
+     height: fit-content;   
+}
+#serviceimg{
+  
+    border-radius: 50%;
+    height: 120px;
+    padding: 3px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+#serviceimg:hover{
+    border: 8px solid red;
+}
+.indicat1{
+    margin-top: 30px;
+    border: none;
+}
+.servicelearnmore{
+    margin: 3px;
+    padding: 10px;
+}
+.servicelearnmore button{
+    margin: 7px;
+    padding: 8px;
+    font-weight: bolder;
+    border:none;
+  
+    font-size: 0.9rem;
+    box-shadow: -7px 7px 14px black;
+    cursor: pointer;
+    
+}
+.servicelearnmore button:hover{
+    background-color: #911010;
+    color: white;
+    transform: scale(1.08);
+}
+.indicat3{
+    height: 150px;
+    background: radial-gradient(#fff, #efff6f);
+    border: none;
+}
+.oactivee{
+    background-color: #911010;
+    color: white;
+    transform: scale(1.08);
+}
